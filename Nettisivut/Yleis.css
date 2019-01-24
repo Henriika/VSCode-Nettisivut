@@ -1,0 +1,50 @@
+/* Tässä tiedostossa määritellään koko sivustua koskevat yleiset asetukset, kuten värit ja fontit */
+* {
+  box-sizing: border-box;
+  font-family: "Palantino", serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Palantino", serif;
+}
+
+
+.otsikko-fontti {
+  font-family: "Architects Daughter", sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #9ed7e2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  /* height: 200px;  Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #d89443;
+  padding: 10px;
+}
