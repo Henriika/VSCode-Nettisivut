@@ -48,3 +48,21 @@ body {
   background-color: #d89443;
   padding: 10px;
 }
+
+/* Taulukon tyylit */
+table{
+ 
+
+}
+table, td, th {
+   background-color: #d89443
+  
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
